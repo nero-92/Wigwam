@@ -1,0 +1,388 @@
+@import 'colours'
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap')
+
+body
+	background-color: #white
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif
+	display: flex
+	min-height: 100vh
+	flex-direction: column
+
+.main-container
+	background-color: #fff
+	padding: 25px 15px
+	flex: 1 0 auto
+
+a
+	color: $primary-color
+
+	&:hover
+		color: $primary-color
+
+.btn
+	background-color: $primary-color
+	color: #fff
+	text-align: center
+
+	&:hover
+		color: #fff
+
+.header
+	position: relative
+	background-color: #fff
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25)
+
+	h1
+		margin: 0
+
+.logo
+	max-height: 40px
+	margin-left: 15px
+
+
+.nav-container
+	height: 55px
+
+.navbar
+	font-family: Arial
+	position: absolute
+	right: 0
+	bottom: 0
+	padding: 0
+
+.navbar-expand-sm
+	height: 100%
+	line-height: 55px
+	margin-right: 15px
+	border-radius: 15px
+
+	.navbar-nav
+		height: 100%
+
+		.nav-link
+			height: 100%
+			color: #007db8
+			text-align: centre
+			text-decoration: none
+			font-size: 17px
+			padding: 0 20px
+
+			&:hover
+				border-bottom: 2px solid #007db8
+
+.dropdown
+	&:hover
+		.dropdown-menu
+			display: block
+			margin-top: 0
+			border-radius: 0
+
+		.dropdown-item
+			height: 45px
+			line-height: 35px
+			color: #007db8
+
+			&:hover
+				background-color: #cce7f3
+
+			&:active
+				background-color: #cce7f3
+
+		.nav-link
+			border-bottom: 2px solid #007db8
+
+.footer
+	flex-shrink: 0
+
+.main-footer
+	background-color: #373737
+	color: #fff
+	padding-top: 35px
+	padding-bottom: 35px
+
+	p
+		color: #ccc
+
+	a
+		font-size: 0.8rem
+		color: #ccc
+
+	ul
+		padding: 0
+		margin: 0
+		list-style-type: none
+
+	h5
+		font-size: 1rem
+
+	.footer-blurb
+		padding: 0 30px 0 45px
+		border-right: 1px solid #ccc
+
+	.footer-links
+		padding-left: 80px
+
+.sub-footer
+	background-color: #222
+	color: #ccc
+	padding: 8px 0
+
+//------------------------------------------------
+
+.jumbotron
+	background-image: url(/wigwam/images/banners/abstract/blue-banner.jpg)
+	background-size: cover
+	min-height: 800px
+	text-align: center
+
+.align-center
+	margin: 0
+	position: absolute
+	top: 50%
+	left: 50%
+	-ms-transform: translateY(-50%, -50%)
+	transform: translateY(-50%, -50%)
+
+.carousel-container
+	padding: 0
+
+.carousel-item
+	img
+		width: 100%
+
+.panel
+	margin-top: 30px
+	text-align: center
+
+	a
+		display: block
+		width: 100%
+		min-height: 220px
+		padding: 15px
+		color: #333
+		background-color: #fff
+		border: 2px solid #e9edf1
+		box-shadow: 0 10px 13px rgba(0, 0, 0, 0.09)
+
+		&:hover
+			text-decoration: none
+			border: 2px solid #1ca6de
+			background-color: #eff2f6
+
+	img
+		display: block
+		height: 60px
+		margin: 30px auto
+
+	h3
+		font-size: 1.23em
+		font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif
+		font-weight: 600
+		line-height: 1.4
+
+//------------------------------------------------
+
+.product-description
+	.container
+		margin-top: 30px
+
+.jumbotron
+	color: #fff
+	background-size: cover
+	padding-top: 40px
+	padding-bottom: 40px
+	border-radius: 0
+
+	h2
+		font-size: 4rem
+
+	p
+		font-size: 1.2rem
+
+	.jumbotron-text
+		padding-left: 30px
+
+	.jumbotron-button
+		a
+			color: #fff
+			display: block
+			width: 240px
+			height: 50px
+			line-height: 45px
+			text-align: center
+			position: absolute
+			right: 50px
+			bottom: 8px
+			font-size: 1.2rem
+			border-radius: 0
+			border: 3px solid #fff
+			font-weight: bold
+
+			&:hover
+				color: #f58c7c
+				background-color: #fff
+				text-decoration: none
+
+			.customize-text
+				padding-right: 6px
+
+.customize-panel
+	text-align: center
+
+	img
+		display: block
+		max-width: 100%
+		max-height: 200px
+		margin: auto
+
+.customize-button
+	background-image: linear-gradient(to bottom, #f3dea1, #ecc350)
+	border: 1px solid #a58836
+	border-radius: 4px
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .15) inset, 0 1px 1px rgba(0, 0, 0, .075)
+	color: #111
+	display: block
+	height: 35px
+	line-height: 35px
+	padding: 0
+	text-align: center
+	text-decoration: none
+	width: 100%
+
+	&:hover
+		color: #111
+		text-decoration: none
+
+//------------------------------------------------
+
+.listing-panel
+	background-color: #f3f3f3
+	color: #333
+	display: block
+	height: 100%
+	padding: 15px
+
+	img
+		display: block
+		height: 180px
+		margin: 20px auto
+
+	ul
+		margin-top: 30px
+
+		li
+			line-height: 2
+
+//------------------------------------------------
+
+.customize-main-image
+	img
+		height: 300px
+
+.customize-thumbs
+	height: 90px
+
+	img
+		height: 100%
+
+.customize-modal
+	.modal-dialog
+		max-width: 650px
+
+	.modal-body
+		img
+			display: block
+			margin: auto
+			max-width: 100%
+			max-height: 500px
+
+	.modal-footer
+		justify-content: flex-start
+
+		img
+			display: block
+			height: 100px
+			float: left
+
+//------------------------------------------------
+
+.form-group
+	margin-bottom: 5px
+
+	label
+		text-align: right
+		padding: 7px 15px 0 15px
+
+	.checkbox
+		padding-top: 7px
+
+.form-control
+	&:focus
+		border-color: #66afe9
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.75)
+		box-shadow: 0 0 8px rgba(102, 175, 233, 0.6)
+
+
+.input-group-append
+	height: 31px
+	padding: 5px 10px
+	background-color: #eee
+	border: 1px solid #ccc
+	border-top-right-radius: 3px
+	border-bottom-right-radius: 3px
+	font-size: 12px
+
+form
+	h3
+		font-size: 1.5em
+		font-family: inherit
+		line-height: 1.1
+		margin: 1em 0 0 0
+
+	hr
+		margin: 5px 0
+
+.checkbox-group
+	padding-left: 20px
+	font-size: 0.9em
+
+	h6
+		margin: 8px 0 2px 0
+
+	input
+		margin: 0 5px
+
+.total-price-panel
+	border: 1px solid
+	border-radius: 7px
+	text-align: center
+	padding: 20px
+	margin-top: 24px
+	background-color: rgba(230, 236, 240, 0.4)
+	border-color: rgba(230, 236, 240, 0.4)
+
+	h3
+		margin: 0 0 10px 0
+
+	hr
+		margin: 15px 0
+
+	a:hover
+		text-decoration: none
+		color: $primary-color
+
+	.btn
+		width: 100%
+
+.order-row
+	margin-bottom: 5px
+
+	.order-label
+		text-align: right
+		color: $primary-color
+		font-weight: 550
+
+//------------------------------------------------
+
+dt
+	text-align: right

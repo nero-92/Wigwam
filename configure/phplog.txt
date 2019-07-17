@@ -1,0 +1,293 @@
+---added part---
+11003
+mobo
+---full array---
+11003
+---added part---
+12001
+cpu
+---full array---
+12001
+---added part---
+12002
+cpu
+---full array---
+12001
+12002
+---added part---
+12003
+cpu
+---full array---
+12001
+12002
+12003
+---added part---
+12004
+cpu
+---full array---
+12001
+12002
+12003
+12004
+---added part---
+12005
+cpu
+---full array---
+12001
+12002
+12003
+12004
+12005
+---added part---
+13005
+ram
+---full array---
+13005
+---added part---
+13006
+ram
+---full array---
+13005
+13006
+---added part---
+13007
+ram
+---full array---
+13005
+13006
+13007
+---added part---
+14003
+gpu
+---full array---
+14003
+---added part---
+14004
+gpu
+---full array---
+14003
+14004
+---added part---
+14005
+gpu
+---full array---
+14003
+14004
+14005
+---added part---
+14006
+gpu
+---full array---
+14003
+14004
+14005
+14006
+---added part---
+14007
+gpu
+---full array---
+14003
+14004
+14005
+14006
+14007
+---added part---
+14008
+gpu
+---full array---
+14003
+14004
+14005
+14006
+14007
+14008
+---added part---
+15001
+sound
+---full array---
+15001
+---added part---
+15005
+sound
+---full array---
+15001
+15005
+---added part---
+15008
+sound
+---full array---
+15001
+15005
+15008
+---added part---
+16001
+net
+---full array---
+16001
+---added part---
+17001
+ssd
+---full array---
+17001
+---added part---
+17002
+ssd
+---full array---
+17001
+17002
+---added part---
+17003
+m.2
+---full array---
+17003
+---added part---
+17004
+m.2
+---full array---
+17003
+17004
+---added part---
+17012
+m.2
+---full array---
+17003
+17004
+17012
+---added part---
+17013
+m.2
+---full array---
+17003
+17004
+17012
+17013
+---added part---
+17014
+m.2
+---full array---
+17003
+17004
+17012
+17013
+17014
+---added part---
+17015
+m.2
+---full array---
+17003
+17004
+17012
+17013
+17014
+17015
+---added part---
+17016
+hdd
+---full array---
+17016
+---added part---
+17017
+hdd
+---full array---
+17016
+17017
+---added part---
+17018
+ssd
+---full array---
+17018
+---added part---
+17019
+ssd
+---full array---
+17018
+17019
+---added part---
+17020
+ssd
+---full array---
+17018
+17019
+17020
+---added part---
+17021
+ssd
+---full array---
+17018
+17019
+17020
+17021
+---added part---
+17022
+ssd
+---full array---
+17018
+17019
+17020
+17021
+17022
+---added part---
+17023
+ssd
+---full array---
+17018
+17019
+17020
+17021
+17022
+17023
+---added part---
+17024
+ssd
+---full array---
+17018
+17019
+17020
+17021
+17022
+17023
+17024
+---added part---
+18004
+optic
+---full array---
+18004
+---added part---
+18005
+optic
+---full array---
+18004
+18005
+---added part---
+19003
+chassis
+---full array---
+19003
+---added part---
+20006
+psu
+---full array---
+20006
+---added part---
+21002
+cooler
+---full array---
+21002
+---added part---
+22001
+os
+---full array---
+22001
+---added part---
+22002
+os
+---full array---
+22001
+22002
+---added part---
+22003
+os
+---full array---
+22001
+22002
+22003
